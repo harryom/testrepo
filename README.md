@@ -70,4 +70,10 @@ Logic is implemented to handle multi-storey implementation. If command for level
 Slot No.  Registration No Colour
 ```
 4. 'status' command uses tab space to separate slot no, registration no and colour
+```
+Slot No.    Registration No Colour
+  1       KA-01-HH-1234   White
+  2       KA-09-HH-1229   Blue
+  3       KA-01-HH-1288   Black
+```
 5. Command validation is done, in case of invalid command system will ignore invalid command.
