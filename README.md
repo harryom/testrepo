@@ -9,10 +9,10 @@ There are two modes for using the system.
 
 ## Getting Started
 
-These instructions will get the project up and running on your local machine for development and testing purposes.
+Follow these instructions to get the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
-
+Required softwares to be install before using parking lot system.
 ```
 Apache Maven 3.3.9  
 JAVA 8
@@ -20,22 +20,23 @@ JAVA 8
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
+#### How to setup the system and execute test cases
 ```
-Give the example
+cd parking_lot
+bin/setup
 ```
 
-And repeat
+#### How to run the system in interactive mode
 
 ```
-until finished
+bin/parking_lot
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+#### How to run the system in interactive mode
 
+```
+bin/parking_lot file_inputs.txt
+```
 ## Running the tests
 
 Explain how to run the automated tests for this system
