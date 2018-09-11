@@ -18,26 +18,50 @@ Apache Maven 3.3.9
 JAVA 8
 ```
 
-### Installing
+### Build
 
 #### How to setup the system and execute test cases
 ```
 cd parking_lot
 bin/setup
 ```
-
+### How to use the system
+List of supported commands.
+```
+create_parking_lot <number of slots>
+park <registration number> <color>
+leave <slot number>
+status
+registration_numbers_for_cars_with_colour <color>
+slot_numbers_for_cars_with_colour <color>
+slot_number_for_registration_number <registration number>
+exit
+```
 #### How to run the system in interactive mode
-
+Execute parking_lot script without any argument. It will start shell for parking lot.
+you can use commands from list of supported commands to use the system. 
+Enter 'exit' to close the shell.
 ```
 bin/parking_lot
 ```
+Input:
 
-#### How to run the system in interactive mode
+```sh
+$ create_parking_lot 6
+```
 
+Output:
+
+```sh
+Created a parking lot with 6 slots
+```
+
+#### How to run the system with input file
+Provide file path as argument to execution script.
 ```
 bin/parking_lot file_inputs.txt
 ```
-## Running the tests
+## How to use interactive mode.
 
 Explain how to run the automated tests for this system
 
